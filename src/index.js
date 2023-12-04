@@ -17,8 +17,8 @@ ReactDOM.render(
     
     <Routes>
      
-    <Route path='http://geloortile.github.io/reactwd90' element={<Home/>}/>
-  <Route path='http://geloortile.github.io/reactwd90/about' element={<About/>}/>
+    <Route path='/' element={<Home/>}/>
+  <Route path='/about' element={<About/>}/>
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/blog' element={<Blog/>}/>
  
