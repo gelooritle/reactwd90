@@ -12,13 +12,13 @@ function Navigation(){
                     <div>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                    <NavLink className="nav-link" to="/">
+                    <NavLink className="nav-link" to="http://geloortile.github.io/reactwd90">
                         Home
                      
                     </NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink className="nav-link" to="/about">
+                    <NavLink className="nav-link" to="http://geloortile.github.io/reactwd90/about">
                         About
                       
                     </NavLink>

@@ -12,12 +12,13 @@ import {
 ReactDOM.render(
   <Router>
    
-      <Navigation/>
- 
+      
+   <Navigation/>
     
     <Routes>
-    <Route path='/' element={<Home/>}/>
-  <Route path='/about' element={<About/>}/>
+     
+    <Route path='http://geloortile.github.io/reactwd90' element={<Home/>}/>
+  <Route path='http://geloortile.github.io/reactwd90/about' element={<About/>}/>
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/blog' element={<Blog/>}/>
  
@@ -26,9 +27,11 @@ ReactDOM.render(
     <Route path="list" element={<List />}/>
    
    </Route>
- 
 </Routes>
+
+
 <Footer />
+
      </Router>,
 
      document.getElementById("root")
